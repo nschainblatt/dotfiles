@@ -16,6 +16,9 @@ setopt histignorealldups sharehistory
 # Use vi keybindings
 bindkey -v
 
+# Don't need to use cd
+setopt auto_cd
+
 # Keep 1000 lines of history within the shell and save it to ~/.zsh_history:
 HISTSIZE=1000
 SAVEHIST=1000
