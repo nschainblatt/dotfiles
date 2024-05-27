@@ -1,0 +1,12 @@
+[includeIf "gitdir:~/"]
+  path = ~/dotfiles/git/personal/.gitconfig
+[includeIf "gitdir:~/bluearrow/"]
+  path = ~/dotfiles/git/work/.gitconfig
+
+[init]
+	defaultBranch = main
+[core]
+	editor = nvim
+[web]
+	browser = google-chrome
+
