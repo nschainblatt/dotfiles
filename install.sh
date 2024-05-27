@@ -13,3 +13,9 @@ git clone git@github.com:rupa/z.git ~/z
 sudo apt install tmux
 
 sudo apt install unzip
+
+sudo apt install xclip
+
+sudo apt install curl
+
+sudo apt install ripgrep
