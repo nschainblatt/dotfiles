@@ -1,3 +1,9 @@
+sudo apt install alacritty
+
+sudo apt install zsh
+
+sudo snap install nvim --classic
+
 # zsh theme
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
