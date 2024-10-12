@@ -2,6 +2,8 @@
   path = ~/dotfiles/git/personal/.gitconfig
 [includeIf "gitdir:~/bluearrow/"]
   path = ~/dotfiles/git/work/.gitconfig
+[includeIf "gitdir:~/wgu/"]
+  path = ~/dotfiles/git/school/.gitconfig
 
 [init]
 	defaultBranch = main
