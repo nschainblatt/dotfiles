@@ -202,7 +202,7 @@ exec --no-startup-id i3-msg 'workspace $ws1; exec alacritty'
 assign [class="Alacritty"] $ws1
 
 # Starting all profiles on workspace 2 because I am unable to place them individually on seperate workspaces without them all cramming on the same one, I will just have to do the below and the move them where I want
-exec --no-startup-id i3-msg 'workspace $ws2; exec google-chrome --profile-directory="Profile 2"'
-exec --no-startup-id i3-msg 'workspace $ws2; exec google-chrome --profile-directory="Profile 1"'
-exec --no-startup-id i3-msg 'workspace $ws2; exec google-chrome --profile-directory="Default"'
+# exec --no-startup-id i3-msg 'workspace $ws2; exec google-chrome --profile-directory="Profile 2"'
+# exec --no-startup-id i3-msg 'workspace $ws2; exec google-chrome --profile-directory="Profile 1"'
+# exec --no-startup-id i3-msg 'workspace $ws2; exec google-chrome --profile-directory="Default"'
 
