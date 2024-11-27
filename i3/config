@@ -206,3 +206,13 @@ assign [class="Alacritty"] $ws1
 # exec --no-startup-id i3-msg 'workspace $ws2; exec google-chrome --profile-directory="Profile 1"'
 # exec --no-startup-id i3-msg 'workspace $ws2; exec google-chrome --profile-directory="Default"'
 
+# Use rofi instead of default dMenu
+bindsym $mod+d exec --no-startup-id rofi -show drun
+
+# Open flameshot with printscrn
+bindsym Print exec --no-startup-id flameshot gui
+
+exec_always xset -dpms
+exec_always xset s off
+exec_always xset noblank
+
