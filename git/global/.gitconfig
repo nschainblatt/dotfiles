@@ -11,4 +11,7 @@
 	editor = nvim
 [web]
 	browser = google-chrome
-
+[diff]
+	tool = nvim -d 
+[merge]
+	tool = nvim -d
