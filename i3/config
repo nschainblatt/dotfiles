@@ -183,6 +183,7 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
         status_command i3status --config ~/.i3status.conf
+        position top
 }
 
 # Bar Coloring
@@ -217,3 +218,4 @@ exec_always xset -dpms
 exec_always xset s off
 exec_always xset noblank
 
+bindsym $mod+Shift+d exec /home/mrplayingame/i3-scripts/workspaces-swap.sh
